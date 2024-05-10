@@ -44,7 +44,7 @@ Nest has tools that helps us to write the following:
 
 
 #### Decorator
-`@Controller()`
+`@Controller()` , `@Get()` , `@Module()`
 - In our case, this decorator is telling Nest that we are trying to create a class that is going to serve as a controller inside of our application.
 - It is a class that is going to handle and route incoming requests.
 - We are going to use controller decorator to control some high level routing rules that are going to apply to all of the different route handlers that we set up inside this controller.
